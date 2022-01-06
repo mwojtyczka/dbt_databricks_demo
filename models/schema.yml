@@ -1,0 +1,36 @@
+
+version: 2
+
+models:
+  - name: wikipedia_clickstreams_clean
+    description: "Wiki clickstream dataset with renamed columns"
+    columns:
+      - name: current_page_title
+        description: "The current page title"
+        tests:
+          - unique
+          - not_null
+    columns:
+      - name: click_count
+        description: "Click count"
+        tests:
+          - not_null
+    columns:
+        - name: previous_page_title
+          description: "Previous page title"
+          tests:
+            - not_null
+
+  - name: wikipedia_top10_by_clicks
+    description: "Wiki top 10 pages by clicks"
+    columns:
+      - name: current_page_title
+        description: "The current page title"
+        tests:
+          - unique
+          - not_null
+    columns:
+      - name: total_clicks
+        description: "Total clicks"
+        tests:
+          - not_null
