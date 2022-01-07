@@ -8,18 +8,17 @@ models:
       - name: current_page_title
         description: "The current page title"
         tests:
-          - unique
           - not_null
-    columns:
+
       - name: click_count
         description: "Click count"
         tests:
           - not_null
-    columns:
-        - name: previous_page_title
-          description: "Previous page title"
-          tests:
-            - not_null
+
+      - name: previous_page_title
+        description: "Previous page title"
+        tests:
+          - not_null
 
   - name: wikipedia_top10_by_clicks
     description: "Wiki top 10 pages by clicks"
@@ -29,7 +28,6 @@ models:
         tests:
           - unique
           - not_null
-    columns:
       - name: total_clicks
         description: "Total clicks"
         tests:
