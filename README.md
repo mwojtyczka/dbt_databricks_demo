@@ -1,4 +1,4 @@
-###### dbt + Databricks Demo
+# dbt + Databricks Demo
 
 ### Using the starter project
 
