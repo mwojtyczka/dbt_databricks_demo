@@ -30,6 +30,7 @@ wiki_demo:
       host: [your.databrickshost.com]
       http_path: [/sql/your/http/path]
       token: [dapiXXXXXXXXXXXXXXXXXXXXXXX]
+```
 
 
 ### Resources:
