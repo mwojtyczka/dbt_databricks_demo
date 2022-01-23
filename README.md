@@ -72,5 +72,6 @@ dbt docs serve
 View the documentation for the project:
 
 ### Resources:
+- https://github.com/dbt-labs/jaffle_shop
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - https://github.com/databricks/dbt-databricks
