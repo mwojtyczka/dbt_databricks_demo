@@ -14,6 +14,7 @@ pip install --upgrade dbt-databricks
 ```
 
 2. Clone this repository
+
 3. Change into the dbt_databricks_demo directory from the command line:
 ```nofmt
 $cd  dbt_databricks_demo
