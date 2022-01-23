@@ -39,11 +39,38 @@ wiki_demo:
 ```nofmt
 dbt debug
 ```
+6. Load the wikipedia clickstream raw CSVs demo data set. This materializes the CSVs as delta tables in your target schema. Note that a typical dbt project does not require this step since dbt assumes your raw data is already in your warehouse.
+```nofmt
+dbt seed
+```
+
+7. Run the models:
+
+```nofmt
+dbt run
+```
+
+8. Test the output of the models:
+
+```nofmt
+dbt test
+```
+
+9. Generate documentation for the project:
+
+```nofmt
+dbt docs generate
+```
+
+10. View the docs for the project
+
+```nofmt
+dbt docs serve
+```
+
+
+View the documentation for the project:
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 - https://github.com/databricks/dbt-databricks
