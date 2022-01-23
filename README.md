@@ -1,10 +1,31 @@
 # dbt + Databricks Demo
 
-### Using the starter project
+### Running this project
 
-Try running the following commands:
-- dbt run
-- dbt test
+### Installation
+
+Install using pip:
+```nofmt
+pip install dbt-databricks
+```
+
+Upgrade to the latest version
+```nofmt
+pip install --upgrade dbt-databricks
+```
+
+### Profile Setup
+
+```nofmt
+your_profile_name:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      schema: [database/schema name]
+      host: [your.databrickshost.com]
+      http_path: [/sql/your/http/path]
+      token: [dapiXXXXXXXXXXXXXXXXXXXXXXX]
 
 
 ### Resources:
