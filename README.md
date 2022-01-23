@@ -69,7 +69,6 @@ dbt docs serve
 ```
 
 
-View the documentation for the project:
 
 ### Resources:
 - https://github.com/dbt-labs/jaffle_shop
