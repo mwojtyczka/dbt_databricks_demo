@@ -2,8 +2,7 @@
 
 ### Running this project
 
-### Installation
-
+1. Install dbt 
 Install using pip:
 ```nofmt
 pip install dbt-databricks
