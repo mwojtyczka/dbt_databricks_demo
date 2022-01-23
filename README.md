@@ -35,6 +35,10 @@ wiki_demo:
       token: [dapiXXXXXXXXXXXXXXXXXXXXXXX]
 ```
 
+5. Ensure your profile is setup correctly from the command line:
+```nofmt
+dbt debug
+```
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
