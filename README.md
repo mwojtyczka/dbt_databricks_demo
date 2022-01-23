@@ -17,7 +17,7 @@ pip install --upgrade dbt-databricks
 
 3. Change into the dbt_databricks_demo directory from the command line:
 ```nofmt
-$cd  dbt_databricks_demo
+cd  dbt_databricks_demo
 ```
 4. Setup a profile called wiki_demo
 
@@ -35,7 +35,7 @@ wiki_demo:
       token: [dapiXXXXXXXXXXXXXXXXXXXXXXX]
 ```
 
-5. Ensure your profile is setup correctly from the command line:
+5. Test your profile is setup correctly from the command line:
 ```nofmt
 dbt debug
 ```
