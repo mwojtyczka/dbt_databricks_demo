@@ -13,10 +13,15 @@ Upgrade to the latest version
 pip install --upgrade dbt-databricks
 ```
 
-### Profile Setup
+2. Clone this repository
+3. Change into the dbt_databricks_demo directory from the command line:
+```nofmt
+$cd  dbt-databricks
+```
+4. Setup a profile called wiki_demo, and provide you Databricks connection endpoints.
 
 ```nofmt
-your_profile_name:
+wiki_demo:
   target: dev
   outputs:
     dev:
@@ -33,3 +38,4 @@ your_profile_name:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- https://github.com/databricks/dbt-databricks
