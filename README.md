@@ -19,6 +19,7 @@ pip install --upgrade dbt-databricks
 $cd  dbt_databricks_demo
 ```
 4. Setup a profile called wiki_demo
+
 Create a profiles.yml file with the bellow content, and provide your Databricks SQL endpoint and token. By default, dbt expects the profiles.yml file to be located in the ~/.dbt/ directory.
 
 ```nofmt
