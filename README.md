@@ -68,9 +68,8 @@ dbt docs generate
 dbt docs serve
 ```
 
-
-
 ### Resources:
+- https://docs.databricks.com/dev-tools/dbt.html
 - https://github.com/dbt-labs/jaffle_shop
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - https://github.com/databricks/dbt-databricks
